@@ -73,4 +73,5 @@ channel.addNewVideo("Observer Pattern Video.");
  * https://dev.to/rajat19/create-a-new-node-js-project-in-typescript-nao
  * https://khalilstemmler.com/blogs/typescript/node-starter-project/
  * https://dev.to/jochemstoel/bundle-your-node-app-to-a-single-executable-for-windows-linux-and-osx-2c89
+ * https://stackoverflow.com/questions/38746535/creating-a-sub-folder-in-package-json
  */

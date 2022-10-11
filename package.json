@@ -7,13 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon",
     "build": "rimraf ./dist && tsc",
-    "create": "rimraf ./build && mkdir build && node_modules/pkg/lib-es5/bin.js dist/*.js --output build/index"
+    "pkg": "rimraf ./build && mkdirp ./build && pkg dist/*.js --output build/index"
   },
   "keywords": [],
   "author": "emarifer",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.8.3",
+    "mkdirp": "^1.0.4",
     "nodemon": "^2.0.20",
     "pkg": "^5.8.0",
     "rimraf": "^3.0.2",
